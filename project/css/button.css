@@ -1,0 +1,52 @@
+@import "style.css";
+
+:root {
+  --button-bg-color: var(--alabaster);
+  --button-text-color: var(--blue-bayoux);
+  --button-border-color: var(--kidnapper);
+  --button-bg-hover-focus-color: var(--kidnapper);
+  --button-border-hover-focus-color: var(--kidnapper);
+  --button-focus-color: var(--kidnapper);
+  --button-bg-active-color: var(--alabaster);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  display: block;
+  padding: 0 0.75em;
+  margin: 0;
+  max-width: 100%;
+  width: 12em;
+  height: 3.5em;
+  border: 0.007em solid var(--button-border-color);
+  border-radius: 0.5em;
+
+  background: var(--button-bg-color);
+  color: var(--button-text-color);
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5em;
+  text-decoration: none;
+  letter-spacing: 0.025em;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:hover, :focus {
+  background: var(--button-bg-hover-focus-color);
+  border: var(--button-border-hover-focus-color);
+  transition: All 0.5s ease;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  background: var(--button-bg-active-color);
+}

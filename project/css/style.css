@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab|Days+One|Fugaz+One|Gentium+Book+Basic|Michroma|Rubik');
+
+:root {
+  --black-pearl: #0e1e31;
+  --catalina-blue: #2f455d;
+  --blue-bayoux: #717a7d;
+  --kidnapper: #bbbbb3;
+  --alabaster: #f2f1ec;
+}
+
+* {
+  box-sizing: border-box;
+}

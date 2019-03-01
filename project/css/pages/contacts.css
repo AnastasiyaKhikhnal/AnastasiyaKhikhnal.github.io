@@ -1,0 +1,89 @@
+@import "./../style.css";
+
+:root {
+
+}
+
+* {
+  box-sizing: border-box;
+  color: #2f455d;
+  /*font-family: ;*/
+}
+
+.contacts {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.contacts-options {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contacts-form-options {
+  display: inline-block;
+  width: 50%;
+  height: 100vh;
+}
+
+.contacts-address-options {
+  display: inline-block;
+  width: 50%;
+  height: 100vh;
+  float: right;
+  clear: both;
+}
+
+.contacts-address {
+  margin: 10em auto;
+}
+
+.contacts__form-application {
+  padding-top: 12em;
+  padding-left: 3.9em;
+  padding-right: 3.9em;
+}
+
+.contacts-address__tel-link {
+  display: block;
+  text-decoration: none;
+  color: #0e1e31;
+}
+
+.contacts-address__tel-link:focus {
+  color: #717a7d;
+}
+
+.contacts-address__tel-link:hover {
+  color: #717a7d;
+}
+
+.contacts-address__tel-link:active {
+  color: #717a7d;
+}
+
+.contacts-box {
+  display: block;
+  position: absolute;
+  top: -10em;
+  left: 10em;
+  margin: 1.25em 1.25em;
+  width: 20em;
+  height: 20em;
+  border: 0.7rem;
+  z-index: 10;
+  border-image: linear-gradient(to right, #08088b 0, #2575fc 100%) 1;
+
+  overflow: hidden;
+  clear: both;
+}
+
+.contacts-box__title {
+  text-align: center;
+  padding-top: 200px;
+  color: #f2f1ec;
+}
