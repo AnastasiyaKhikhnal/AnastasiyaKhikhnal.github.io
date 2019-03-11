@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab|Days+One|Fugaz+One|Gentium+Book+Basic|Michroma|Rubik');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Prosto+One|Scada');
 
 :root {
   --black-pearl: #0e1e31;
@@ -8,6 +8,11 @@
   --alabaster: #f2f1ec;
 }
 
+body {
+  margin: 0;padding: 0;
+}
+
 * {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
+  font-family: "Open Sans", Arial, sans-serif;
 }
