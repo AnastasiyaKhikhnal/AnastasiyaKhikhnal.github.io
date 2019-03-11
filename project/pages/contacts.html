@@ -11,46 +11,47 @@
   <link rel="stylesheet" href="./../css/box.css">
 </head>
 <body>
-<section class="contacts-bg">
-  <div class="contacts-bg-top"></div>
-</section>
-<section class="contacts">
-  <div class="contacts-options">
-    <div class="contacts-address-options">
-      <div class="box contacts__box">
-        <p class="box__title">Контакты</p>
+  <section class="contacts-bg">
+    <div class="contacts-bg-top"></div>
+  </section>
+  <section class="contacts">
+    <div class="contacts-options">
+      <div class="contacts-address-options">
+        <div class="box contacts__box">
+          <p class="box__title">Контакты</p>
+        </div>
+        <div class="contacts-address">
+          <h3 class="contacts-address__headline">Адрес:</h3>
+          <p class="contacts-address__info">Гродненская область, г.Гродно,<br> улица 1 Мая, д.7</p>
+          <h3 class="contacts-address__headline">Телефоны:</h3><br>
+          <a class="contacts-address__tel-link" href="tel:+375152676226">+375 (152) 676226</a>
+          <a class="contacts-address__tel-link" href="tel:+375295839423">+375 (29) 5839423</a>
+          <a class="contacts-address__tel-link" href="tel:+375444752603">+375 (44) 4752603</a>
+          <h3 class="contacts-address__headline">Email-адрес:</h3>
+          <p class="contacts-address__info">luxgorstroy@gmail.com</p>
+          <h3 class="contacts-address__headline">Режим работы:</h3>
+          <p class="contacts-address__info">пн-пт с 8.30-17.30; сб-вс: выходной</p>
+        </div>
       </div>
-      <div class="contacts-address">
-        <h3 class="contacts-address__headline">Адрес:</h3>
-        <p class="contacts-address__info">Гродненская область, г.Гродно,<br> улица 1 Мая, д.7</p>
-        <h3 class="contacts-address__headline">Телефоны:</h3><br>
-        <a class="contacts-address__tel-link" href="tel:+375152676226">+375 (152) 676226</a>
-        <a class="contacts-address__tel-link" href="tel:+375295839423">+375 (29) 5839423</a>
-        <a class="contacts-address__tel-link" href="tel:+375444752603">+375 (44) 4752603</a>
-        <h3 class="contacts-address__headline">Email-адрес:</h3>
-        <p class="contacts-address__info">luxgorstroy@gmail.com</p>
-        <h3 class="contacts-address__headline">Режим работы:</h3>
-        <p class="contacts-address__info">пн-пт с 8.30-17.30; сб-вс: выходной</p>
+      <div class="contacts-form-options">
+        <form class="form-application contacts__form-application" action="mailto:luxgorstroy@gmail.com"
+              enctype="text/plain">
+          <fieldset class="form-application__fieldset">
+            <p><input class="input__item" type="text" autocomplete="off" placeholder="Ваше имя *" required></p>
+            <p><input class="input__item" type="email" autocomplete="off" placeholder="Email *" required></p>
+            <p><input class="input__item" type="tel" autocomplete="off" placeholder="Ваш телефон"></p>
+            <textarea class="input__item input__item_textarea" cols="100" rows="10" placeholder="Ваше сообщение *"
+                      required></textarea>
+            <p>
+              <button class="button" type="submit">Отправить</button>
+            </p>
+          </fieldset>
+        </form>
       </div>
     </div>
-    <div class="contacts-form-options">
-      <form class="form-application contacts__form-application" action="mailto:luxgorstroy@gmail.com"
-            enctype="text/plain">
-        <fieldset class="form-application__fieldset">
-          <p><input class="input__item" type="text" autocomplete="off" placeholder="Ваше имя *" required></p>
-          <p><input class="input__item" type="email" autocomplete="off" placeholder="Email *" required></p>
-          <p><input class="input__item" type="tel" autocomplete="off" placeholder="Ваш телефон"></p>
-          <textarea class="input__item input__item_textarea" cols="100" rows="10" placeholder="Ваше сообщение *" required></textarea>
-          <p>
-            <button class="button" type="submit">Отправить</button>
-          </p>
-        </fieldset>
-      </form>
-    </div>
-  </div>
-</section>
-<footer class="footer">
-  <span class="footer__copyright">2018-2019 ООО "ЛюксГорСтрой"</span>
-</footer>
+  </section>
+  <footer class="footer">
+    <span class="footer__copyright">2018-2019 ООО "ЛюксГорСтрой"</span>
+  </footer>
 </body>
 </html>
