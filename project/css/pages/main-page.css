@@ -1,0 +1,221 @@
+@import "./../style.css";
+
+:root {
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*-------header class = "header"---------*/
+
+.header-content {
+  /*display: block;*/
+  position: fixed;
+  z-index: 2;
+}
+
+
+/*----------section class = main-page-slider----------*/
+.main-page-slider, .slider-main-bg {
+  height: 100vh;
+}
+
+.slider-main-bg {
+  width: 100%;
+}
+
+.main-page-slider__foto::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.main-page-slider__foto::after {
+  background: #000000;
+  opacity: 0.5;
+}
+
+.main-page-title, .main-page-title__logo, .main-page-title__name-of-company, .main-page-title__slogan {
+  display: block;
+}
+
+.main-page-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-page-title__name-of-company, .main-page-title__slogan {
+  color: #ffffff;
+}
+
+.main-page-title__name-of-company {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2.4em;
+}
+
+.main-page-title__line {
+  width: 19em;
+}
+
+.main-page-title__slogan {
+  font-size: 1.2em;
+}
+
+/*----------section class = "about-company"----------*/
+
+.main-page-about-company {
+  background: #f2f1ec;
+}
+
+.about-company__name {
+  font-style: italic;
+  color: #717a7d;
+}
+
+.about-company-info {
+  margin: 0 auto;
+  width: 80%;
+  border-top: 1px solid #bbbbb3;
+}
+
+.about-company-info-text {
+  margin: 0;
+  padding: 0 3em;
+  color:  #2f455d;
+  text-align: justify;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  text-indent: 5%;
+}
+
+.about-company-info-text:first-child {
+  padding-top: 3em;
+}
+
+.about-company-info-text:last-child {
+  padding-bottom: 3em;
+}
+
+/*----------section class = "main-page-advantages"----------*/
+
+.main-page-advantages-options {
+  display: inline-flex;
+  width: 100%;
+  max-width: 100%;
+  height: 34.375em;
+  justify-content: space-around;
+}
+
+.main-page-advantages-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 12.5em 0;
+  width: 9.375em;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page-advantages-text {
+  color: black;
+}
+
+/*------- class = "main-page-work-process"-----------*/
+
+.stages-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.main-page-work-process {
+  background: #f2f1ec;
+}
+
+.main-page-work-process-options {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  height: 25em;
+}
+
+.main-page-work-process-stages {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0;
+  align-items: center;
+  justify-content: center;
+  width: 16em;
+  height: 25em;
+  border-right: 1px solid #bbbbb3;
+  border-top: 1px solid #bbbbb3;;
+  border-bottom: 1px solid #bbbbb3;;
+}
+
+.main-page-work-process-stages:last-child {
+  border-right: none;
+}
+
+.main-page-work-process-stages:hover {
+  background: white;
+  transition: all 0.3s linear;
+}
+
+.main-page-work-process-text {
+  display: flex;
+  align-items: baseline;
+  padding: 50px;
+  color: #2f455d;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/*---------section class = "main-page-contacts"--------------*/
+
+.main-page-contacts__contacts-address {
+  padding: 4.375em 0;
+}
+
+.main-page-contacts__contacts-form {
+  padding: 5em 0 4.375em;
+}
+
+/*----------стили плавного появления блоков revealator----------*/
+
+/*.revealator-slideleft.revealator-within, .revealator-slideleft.revealator-partially-above, .revealator-slideleft.revealator-above {*/
+/*transform: translate(0, 0);*/
+/*opacity: 1;*/
+/*}*/
+
+/*.revealator-delay2 {*/
+/*transition-delay: 200ms !important;*/
+/*}*/
+
+/*.revealator-slideleft {*/
+/*transition: all 600ms;*/
+/*}*/
+
+/*.revealator-delay4 {*/
+/*transition-delay: 400ms !important;*/
+/*}*/
+
+/*.revealator-delay6 {*/
+/*transition-delay: 600ms !important;*/
+/*}*/
+
+/*-----------код к плавно появляющимся блокам (не сработал надо разбираться)---------------*/
+/*.hidden{*/
+/*opacity:0;*/
+/*}*/
+/*.visible{*/
+/*opacity:1;*/
+/*overflow: auto;*/
+/*}*/
