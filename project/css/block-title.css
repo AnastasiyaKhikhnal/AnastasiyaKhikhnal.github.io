@@ -1,0 +1,102 @@
+@import "style.css";
+
+:root {
+  --main-title-border-bg-color: var(--kidnapper);
+  --main-title-intro-text-color: var(--blue-bayoux);
+  --block-title-bg-color: var(--alabaster);
+}
+
+.block-title {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  background: var(--block-title-bg-color);
+}
+
+.block-title-options {
+  display: inline-flex;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+}
+
+.main-title, .info-intro {
+  display: flex;
+  width: 50%;
+}
+
+.main-title {
+  padding: 2.45em 0;
+  justify-content: center;
+  border-right: 1px inset;
+  border-color:  var(--main-title-border-bg-color);
+}
+
+.info-intro {
+  padding: 1.25em 0;
+}
+
+.title, .intro {
+  color: var(--main-title-intro-text-color);
+}
+
+.title {
+  font-size: 5.625em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: -0.5rem;
+  font-family:'Arsenal', sans-serif;
+}
+
+.intro {
+  padding-left: 1.25em;
+  font-size: 1em;
+  text-align: justify;
+}
+
+@media (max-width: 1300px) {
+  .title {
+    padding-right: 50px;
+    font-size: 4.625em;
+  }
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 4.625em;
+  }
+  .main-title {
+    padding: 0.45em 0;
+  }
+}
+
+@media (max-width:812px) {
+  .block-title-options {
+    display: block;
+    width: 100%;
+  }
+  .main-title, .info-intro {
+    display: flex;
+    width: 100%;
+  }
+  .intro {
+    padding: 0 9em;
+    font-size: 1em;
+    text-align: justify;
+  }
+  .main-title {
+    border-right: none;
+    border-bottom: 1px inset var(--main-title-border-bg-color);
+  }
+}
+
+@media (max-width:568px) {
+  .title {
+    padding-right: 0;
+    font-size: 3.625em;
+  }
+  .intro {
+    padding: 0 2.25em;
+  }
+}
