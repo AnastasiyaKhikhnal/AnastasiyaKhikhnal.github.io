@@ -15,191 +15,187 @@
   <link rel="stylesheet" href="./../css/footer.css">
 </head>
 <body>
-<header class="header">
-  <script src="./../JS/header-menu.js"></script>
-  <div class="header-content clearfix">
-    <div class="header-content__logo">
-      <img class="logo" src="./../img/logo-company.png" alt="logo">
-    </div>
-    <div class="header-content__name">
-      <span class="header-content__name-company">ЛюксГорСтрой</span>
-      <hr class="header-content__line">
-      <small class="header-content__slogan">за нами качество</small>
-    </div>
-    <div class="menu-button">
-      <a href="#" class="icon" onclick="toggleMenu()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-    <div class="header-content__tel">
-      <a class="header-content__phone" href="tel:+375295839423">+375 (29) 5839423</a>
-      <a class="header-content__phone" href="tel:+375444752603">+375 (44) 4752603</a>
-    </div>
-  </div>
-
-  <!--СКРЫТОЕ МЕНЮ-->
-
-  <div id=menu class="menu hidden">
-    <nav class="menu__nav">
-      <ul class="menu__list">
-        <li class="menu__item"><a class="menu__link" href="#">главная</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">о нас</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">услуги</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">вакансии</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">контакты</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
-
-
-<section class="main-page-slider">
-  <div class="main-page-slider__foto">
-    <!--<picture>-->
-    <!--<source srcset="foto4.jpg" media="(max-width: 320px) and (orientation: landscape)">-->
-    <!--<source srcset="foto5.jpg" media="(max-width: 480px) and (orientation: portrait)">-->
-    <!--<source srcset="foto4.jpg" media="(min-width: 320px) and (orientation: landscape)">-->
-    <!--<source srcset="foto5.jpg" media="(min-width: 480px) and (orientation: portrait)">-->
-    <!--&lt;!&ndash;<img  src="foto2.jpg" srcset="foto2.jpg" alt="Исходная картинка" class="foto-slider">&ndash;&gt;-->
-    <!--</picture>-->
-    <img class="slider-main-bg" src="./../img/foto2.jpg" alt="foto">
-  </div>
-  <div class="main-page-title">
-    <div class="main-page-title__logo"><img src="./../img/logo-company.png" alt="logo" width="120px" height="120px"></div>
-    <h1 class="main-page-title__name-of-company">Люксгорстрой</h1>
-    <hr class="main-page-title__line">
-    <span class="main-page-title__slogan">ремонт и строительство</span>
-  </div>
-</section>
-<section class="main-page-about-company">
-  <div class="block-title">
-    <div class="block-title-options">
-      <div class="main-title">
-        <span class="title">О компании</span>
+  <header class="header">
+    <script src="./../JS/header-menu.js"></script>
+    <div class="header-content clearfix">
+      <div class="header-content__logo">
+        <img class="logo" src="./../img/logo-company.png" alt="logo">
       </div>
-      <div class="info-intro">
-          <span class="intro"><span class="about-company__name">ООО «ЛюксГорСтрой»</span> с 2000 года успешно работает на рынке строительных услуг в г.
-            Гродно и Гродненской области и оказывает широкий спектр услуг в сфере ремонта и строительства.</span>
+      <div class="header-content__name">
+        <span class="header-content__name-company">ЛюксГорСтрой</span>
+        <hr class="header-content__line">
+        <small class="header-content__slogan">за нами качество</small>
+      </div>
+      <div class="menu-button">
+        <a href="#" class="icon" onclick="toggleMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="header-content__tel">
+        <a class="header-content__phone" href="tel:+375295839423">+375 (29) 5839423</a>
+        <a class="header-content__phone" href="tel:+375444752603">+375 (44) 4752603</a>
       </div>
     </div>
-  </div>
-  <div class="about-company-info">
-    <p class="about-company-info-text">Основной специализацией нашей компании является новое строительство,
-      реконструкция, модернизация и капитальный ремонт объектов строительства в качестве генерального подрядчика.</p>
-    <p class="about-company-info-text">Строительная компания «ЛюксГорСтрой» располагает необходимой нормативно-
-      технической базой, сертификатами для производства строительных, отделочных и других работ.</p>
-    <p class="about-company-info-text">Индивидуальный подход к каждому Заказчику – один из основных принципов нашей
-      работы. Мы стремимся не
-      только выполнить поставленную задачу в оговоренные сроки, для нас не менее важно поддерживать конструктивный
-      диалог с Заказчиком на каждом этапе сотрудничества.</p>
-  </div>
-</section>
-<section class="main-page-advantages">
-  <!--<div class="bg"></div>-->
-  <div class="main-page-advantages-options">
-    <div class="main-page-advantages-wrap  revealator-slideleft revealator-once revealator-within">
-      <img src="./../img/icon2.png" alt="icon">
-      <span class="main-page-advantages-text  revealator-slideleft revealator-delay2 revealator-once revealator-within">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sunt. adipisicing elit.</span>
-    </div>
-    <div class="main-page-advantages-wrap  revealator-slideleft revealator-delay4 revealator-once revealator-within">
-      <img src="./../img/icon2.png" alt="icon">
-      <span class="main-page-advantages-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sunt. adipisicing elit.</span>
-    </div>
-    <div class="main-page-advantages-wrap  revealator-slideleft revealator-delay6 revealator-once revealator-partially-below">
-      <img src="./../img/icon2.png" alt="icon">
-      <span class="main-page-advantages-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sunt. adipisicing elit.</span>
-    </div>
-  </div>
-</section>
-<section class="main-page-work-process">
-  <div class="block-title">
-    <div class="block-title-options">
-      <div class="main-title">
-        <span class="title">Этапы работы</span>
-      </div>
-      <div class="info-intro">
-        <span class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum itaque laboriosam necessitatibus odio pariatur, porro qui sequi sunt suscipit voluptatibus.</span>
-      </div>
-    </div>
-  </div>
-  <div class="main-page-work-process-options">
-    <div class="main-page-work-process-stages">
-      <img class="stages-icon" src="./../img/icon2.png" alt="icon">
-      <span class="main-page-work-process-text">Оценка и быстрый расчет стоимости строительства объекта.</span>
-    </div>
-    <div class="main-page-work-process-stages">
-      <img class="stages-icon" src="./../img/icon2.png" alt="icon">
-      <span class="main-page-work-process-text">Определение окончательной цены и заключение договора.</span>
-    </div>
-    <div class="main-page-work-process-stages">
-      <img class="stages-icon" src="./../img/icon2.png" alt="icon">
-      <span class="main-page-work-process-text">Качественное выполнение работ в короткие сроки.</span>
-    </div>
-    <div class="main-page-work-process-stages">
-      <img class="stages-icon" src="./../img/icon2.png" alt="icon">
-      <span class="main-page-work-process-text">Сдача объекта. Довольны все!</span>
-    </div>
-  </div>
-</section>
-<section class="main-page-contacts">
-  <div class="block-title">
-    <div class="block-title-options">
-      <div class="main-title">
-        <span class="title">Связь</span>
-      </div>
-      <div class="info-intro">
-        <span class="intro">Если Вы заинтересовались нашими услугами - свяжитесь с нами. Мы будем рады сотрудничать с вами и сделаем все возможное, чтобы вы остались довольны.</span>
-      </div>
-    </div>
-  </div>
-  <div class="contacts-options">
-    <div class="contacts-address-options">
-      <div class="contacts-address main-page-contacts__contacts-address">
-        <h2 class="contacts-address__main-headline">Контакты</h2>
-        <h3 class="contacts-address__headline">Адрес:</h3>
-        <p class="contacts-address__info">Гродненская область, г.Гродно, улица 1 Мая, д.7</p>
-        <h3 class="contacts-address__headline">Телефоны:</h3>
-        <a class="contacts-address__tel-link" href="tel:+375152676226">+375 (152) 676226</a>
-        <a class="contacts-address__tel-link" href="tel:+375295839423">+375 (29) 5839423</a>
-        <a class="contacts-address__tel-link" href="tel:+375444752603">+375 (44) 4752603</a>
-        <h3 class="contacts-address__headline">Email-адрес:</h3>
-        <p class="contacts-address__info">luxgorstroy@gmail.com</p>
-        <h3 class="contacts-address__headline">Режим аботы:</h3>
-        <p class="contacts-address__info">Режим работы: пн-пт с 8.30-17.30; сб-вс: выходной</p>
-      </div>
-    </div>
-    <div class="contacts-form-options clearfix">
-      <div class="contacts-form main-page-contacts__contacts-form">
-        <form class="form-application contacts__form-application" action="mailto:luxgorstroy@gmail.com"
-              enctype="text/plain">
-          <fieldset class="form-application__fieldset">
-            <p><input class="input__item" type="text" autocomplete="off" placeholder="Ваше имя *" required></p>
-            <p><input class="input__item" type="email" autocomplete="off" placeholder="Email *" required></p>
-            <p><input class="input__item" type="tel" autocomplete="off" placeholder="Ваш телефон"></p>
-            <textarea class="input__item input__item_textarea" cols="100" rows="10" placeholder="Ваше сообщение *"
-                      required></textarea>
-            <p>
-              <button class="button" type="submit">Отправить</button>
-            </p>
-          </fieldset>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-<footer class="footer">
-  <span class="footer__copyright">2018-2019 ООО "ЛюксГорСтрой"</span>
-</footer>
 
+    <!--СКРЫТОЕ МЕНЮ-->
 
-<!--<script>jQuery(document).ready(function() {-->
-<!--jQuery(".post").addClass("hidden").viewportChecker({-->
-<!--classToAdd: 'visible animated fadeIn',-->
-<!--offset: 100-->
-<!--});-->
-<!--});-->
-<!--</script>-->
+    <div id=menu class="menu hidden">
+      <nav class="menu__nav">
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="#">главная</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">о нас</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">услуги</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">вакансии</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="main-page-slider">
+    <div class="main-page-slider__foto">
+      <!--<picture>-->
+      <!--<source srcset="foto4.jpg" media="(max-width: 320px) and (orientation: landscape)">-->
+      <!--<source srcset="foto5.jpg" media="(max-width: 480px) and (orientation: portrait)">-->
+      <!--<source srcset="foto4.jpg" media="(min-width: 320px) and (orientation: landscape)">-->
+      <!--<source srcset="foto5.jpg" media="(min-width: 480px) and (orientation: portrait)">-->
+      <!--&lt;!&ndash;<img  src="foto2.jpg" srcset="foto2.jpg" alt="Исходная картинка" class="foto-slider">&ndash;&gt;-->
+      <!--</picture>-->
+      <img class="slider-main-bg" src="./../img/foto2.jpg" alt="foto">
+    </div>
+    <div class="main-page-title">
+      <div class="main-page-title__logo"><img src="./../img/logo-company.png" alt="logo" width="120px" height="120px">
+      </div>
+      <h1 class="main-page-title__name-of-company">Люксгорстрой</h1>
+      <hr class="main-page-title__line">
+      <span class="main-page-title__slogan">ремонт и строительство</span>
+    </div>
+  </section>
+  <section class="main-page-about-company">
+    <div class="block-title">
+      <div class="block-title-options">
+        <div class="main-title">
+          <span class="title">О компании</span>
+        </div>
+        <div class="info-intro">
+            <span class="intro"><span class="about-company__name">ООО «ЛюксГорСтрой»</span> с 2000 года успешно работает на рынке строительных услуг в г.
+              Гродно и Гродненской области и оказывает широкий спектр услуг в сфере ремонта и строительства.</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-company-info">
+      <p class="about-company-info-text">Основной специализацией нашей компании является новое строительство,
+        реконструкция, модернизация и капитальный ремонт объектов строительства в качестве генерального подрядчика.</p>
+      <p class="about-company-info-text">Строительная компания «ЛюксГорСтрой» располагает необходимой нормативно-
+        технической базой, сертификатами для производства строительных, отделочных и других работ.</p>
+      <p class="about-company-info-text">Индивидуальный подход к каждому Заказчику – один из основных принципов нашей
+        работы. Мы стремимся не
+        только выполнить поставленную задачу в оговоренные сроки, для нас не менее важно поддерживать конструктивный
+        диалог с Заказчиком на каждом этапе сотрудничества.</p>
+    </div>
+  </section>
+  <section class="main-page-advantages">
+    <div class="main-page-advantages-options">
+      <div class="main-page-advantages-wrap  revealator-slideleft revealator-once revealator-within">
+        <img src="./../img/icon2.png" alt="icon">
+        <span class="main-page-advantages-text  revealator-slideleft revealator-delay2 revealator-once revealator-within">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sunt. adipisicing elit.</span>
+      </div>
+      <div class="main-page-advantages-wrap  revealator-slideleft revealator-delay4 revealator-once revealator-within">
+        <img src="./../img/icon2.png" alt="icon">
+        <span class="main-page-advantages-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sunt. adipisicing elit.</span>
+      </div>
+      <div
+          class="main-page-advantages-wrap  revealator-slideleft revealator-delay6 revealator-once revealator-partially-below">
+        <img src="./../img/icon2.png" alt="icon">
+        <span class="main-page-advantages-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, sunt. adipisicing elit.</span>
+      </div>
+    </div>
+  </section>
+  <section class="main-page-work-process">
+    <div class="block-title">
+      <div class="block-title-options">
+        <div class="main-title">
+          <span class="title">Этапы работы</span>
+        </div>
+        <div class="info-intro">
+          <span class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum itaque laboriosam necessitatibus odio pariatur, porro qui sequi sunt suscipit voluptatibus.</span>
+        </div>
+      </div>
+    </div>
+    <div class="main-page-work-process-options">
+      <div class="main-page-work-process-stages">
+        <img class="stages-icon" src="./../img/icon2.png" alt="icon">
+        <span class="main-page-work-process-text">Оценка и быстрый расчет стоимости строительства объекта.</span>
+      </div>
+      <div class="main-page-work-process-stages">
+        <img class="stages-icon" src="./../img/icon2.png" alt="icon">
+        <span class="main-page-work-process-text">Определение окончательной цены и заключение договора.</span>
+      </div>
+      <div class="main-page-work-process-stages">
+        <img class="stages-icon" src="./../img/icon2.png" alt="icon">
+        <span class="main-page-work-process-text">Качественное выполнение работ в короткие сроки.</span>
+      </div>
+      <div class="main-page-work-process-stages">
+        <img class="stages-icon" src="./../img/icon2.png" alt="icon">
+        <span class="main-page-work-process-text">Сдача объекта. Довольны все!</span>
+      </div>
+    </div>
+  </section>
+  <section class="main-page-contacts">
+    <div class="block-title">
+      <div class="block-title-options">
+        <div class="main-title">
+          <span class="title">Связь</span>
+        </div>
+        <div class="info-intro">
+          <span class="intro">Если Вы заинтересовались нашими услугами - свяжитесь с нами. Мы будем рады сотрудничать с вами и сделаем все возможное, чтобы вы остались довольны.</span>
+        </div>
+      </div>
+    </div>
+    <div class="contacts-options">
+      <div class="contacts-address-options">
+        <div class="contacts-address main-page-contacts__contacts-address">
+          <h2 class="contacts-address__main-headline">Контакты</h2>
+          <h3 class="contacts-address__headline">Адрес:</h3>
+          <p class="contacts-address__info">Гродненская область, г.Гродно, улица 1 Мая, д.7</p>
+          <h3 class="contacts-address__headline">Телефоны:</h3>
+          <a class="contacts-address__tel-link" href="tel:+375152676226">+375 (152) 676226</a>
+          <a class="contacts-address__tel-link" href="tel:+375295839423">+375 (29) 5839423</a>
+          <a class="contacts-address__tel-link" href="tel:+375444752603">+375 (44) 4752603</a>
+          <h3 class="contacts-address__headline">Email-адрес:</h3>
+          <p class="contacts-address__info">luxgorstroy@gmail.com</p>
+          <h3 class="contacts-address__headline">Режим аботы:</h3>
+          <p class="contacts-address__info">Режим работы: пн-пт с 8.30-17.30; сб-вс: выходной</p>
+        </div>
+      </div>
+      <div class="contacts-form-options clearfix">
+        <div class="contacts-form main-page-contacts__contacts-form">
+          <form class="form-application contacts__form-application" action="mailto:luxgorstroy@gmail.com"
+                enctype="text/plain">
+            <fieldset class="form-application__fieldset">
+              <p><input class="input__item" type="text" autocomplete="off" placeholder="Ваше имя *" required></p>
+              <p><input class="input__item" type="email" autocomplete="off" placeholder="Email *" required></p>
+              <p><input class="input__item" type="tel" autocomplete="off" placeholder="Ваш телефон"></p>
+              <textarea class="input__item input__item_textarea" cols="100" rows="10" placeholder="Ваше сообщение *"
+                        required></textarea>
+              <p>
+                <button class="button" type="submit">Отправить</button>
+              </p>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <span class="footer__copyright">2018-2019 ООО "ЛюксГорСтрой"</span>
+  </footer>
 
+  <!--<script>jQuery(document).ready(function() {-->
+  <!--jQuery(".post").addClass("hidden").viewportChecker({-->
+  <!--classToAdd: 'visible animated fadeIn',-->
+  <!--offset: 100-->
+  <!--});-->
+  <!--});-->
+  <!--</script>-->
 </body>
 </html>
