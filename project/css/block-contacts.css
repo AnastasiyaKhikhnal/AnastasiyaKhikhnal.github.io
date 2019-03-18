@@ -1,0 +1,74 @@
+@import "style.css";
+
+:root {
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.contacts-options {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.contacts-form-options {
+  display: inline-block;
+  padding-top: 15px;
+  width: 50%;
+  float: right;
+  background: #bbbbb3;
+}
+
+.clearfix:after {
+  content:".";
+  clear:both;
+  display:block;
+  height:0;
+  font-size:0;
+  visibility:hidden
+}
+
+.contacts-address-options {
+  display: inline-block;
+  width: 50%;
+}
+
+.contacts__form-application {
+  padding-left: 3.9em;
+  padding-right: 3.9em;
+}
+
+.contacts-address__tel-link {
+  display: block;
+  text-decoration: none;
+  color: #0e1e31;
+  font-family: "Fugaz One", sans-serif;
+}
+
+.contacts-address__tel-link:focus {
+  color: #717a7d;
+}
+
+.contacts-address__tel-link:hover {
+  color: #717a7d;
+}
+
+.contacts-address__tel-link:active {
+  color: #717a7d;
+}
+
+@media (max-width: 1024px) {
+  .contacts-form-options {
+    display: inline-block;
+    padding-top: 15px;
+    width: 100%;
+  }
+  .contacts-address-options {
+    display: inline-block;
+    width: 100%;
+  }
+}
