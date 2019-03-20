@@ -1,11 +1,11 @@
 @import "style.css";
 
 :root {
-  --button-bg-color: var(--alabaster);
+  --button-bg-color: var(--kidnapper);
   --button-text-color: var(--blue-bayoux);
   --button-border-color: var(--kidnapper);
-  --button-bg-hover-focus-color: var(--kidnapper);
-  --button-border-hover-focus-color: var(--kidnapper);
+  --button-bg-hover-focus-color: var(--summer-sky);
+  --button-border-hover-focus-color: var(--summer-sky);
   --button-focus-color: var(--kidnapper);
   --button-bg-active-color: var(--alabaster);
 }

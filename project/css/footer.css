@@ -1,8 +1,8 @@
 @import "style.css";
 
 :root {
-  --footer-bg-color: var(--alabaster);
-  --footer-text-color: var(--kidnapper);
+  --footer-bg-color: var(--catalina-blue);
+  --footer-text-color: var(--summer-sky);
 }
 
 *{

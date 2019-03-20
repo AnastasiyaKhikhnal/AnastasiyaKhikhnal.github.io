@@ -1,12 +1,12 @@
 @import "style.css";
 
 :root {
-  --input-bg-color: var(--alabaster);
+  --input-bg-color: var(--kidnapper);
   --input-text-color: var(--black-pearl);
   --input-border-color: var(--kidnapper);
-  --input-border-outline-color: var(--kidnapper);
-  --input-border-active-color: var(--kidnapper);
-  --input-border-hover-color: var(--kidnapper);
+  --input-border-outline-color: var(--summer-sky);
+  --input-border-active-color: var(--summer-sky);
+  --input-border-hover-color: var(--summer-sky);
 }
 
 .input__item {
