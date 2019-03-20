@@ -54,6 +54,7 @@
   font-size: 1em;
   text-align: justify;
   font-style: italic;
+  font-weight: 600;
 }
 
 @media (max-width: 1300px) {
