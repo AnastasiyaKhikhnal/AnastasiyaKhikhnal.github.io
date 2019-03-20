@@ -14,7 +14,7 @@ body {
 }
 
 * {
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 
 /*-------header class = "header"---------*/
@@ -192,4 +192,33 @@ body {
 
 .main-page-contacts__contacts-form {
   padding: 5em 0 4.375em;
+}
+
+/*----------section class = "main-page-partners"--------------*/
+
+.main-page-partners {
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+}
+
+.main-page-partners-options {
+  display: inline-flex;
+  width: 100%;
+  max-width: 100%;
+  height: 34.375em;
+  justify-content: space-around;
+}
+
+.main-page-partners-container {
+  display: flex;
+  padding: 12.5em 0;
+  width: 9.375em;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-partner {
+  width: 100%;
+  object-fit: cover;
 }
