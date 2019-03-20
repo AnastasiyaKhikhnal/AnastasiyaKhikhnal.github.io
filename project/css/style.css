@@ -1,4 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Prosto+One|Scada');
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Prosto+One|Scada');*/
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./../fonts/OpenSans-Regular.ttf");
+  src: url("./../fonts/OpenSans-Italic.ttf");
+  src: url("./../fonts/OpenSans-Bold.ttf");
+  src: url("./../fonts/OpenSans-ExtraBold.ttf");
+  src: url("./../fonts/OpenSans-ExtraBolditalic.ttf");
+  src: url("./../fonts/OpenSans-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: "Fugaz One";
