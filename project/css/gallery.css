@@ -5,17 +5,18 @@ body {
 }
 
 .portfolio {
-  background:  #f2f1ec;
-  text-align: center;
   padding-bottom: 6.25rem;
+  text-align: center;
+  background: #f2f1ec;
 }
 
 .portfolio-heading {
   padding-top: 1.5em;
   margin: 0;
-  font-size: 2.45em;
+  font-size: 2.8em;
   color:  #717a7d;
   text-transform: uppercase;
+  font-family: Arsenal, sans-serif;
 }
 
 .portfolio-subline {
