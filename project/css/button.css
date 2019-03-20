@@ -37,7 +37,7 @@
   cursor: pointer;
 }
 
-.button:hover, :focus {
+.button:hover, .button:focus {
   background: var(--button-bg-hover-focus-color);
   border: var(--button-border-hover-focus-color);
   transition: All 0.5s ease;
