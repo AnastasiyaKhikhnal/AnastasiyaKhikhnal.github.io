@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>main-page</title>
   <link rel="stylesheet" href="./../css/pages/main-page.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./../css/input.css">
   <link rel="stylesheet" href="./../css/form-application.css">
   <link rel="stylesheet" href="./../css/footer.css">
+  <link rel="stylesheet" href="./../css/gallery.css">
 </head>
 <body>
   <header class="header">
@@ -140,6 +141,90 @@
       </div>
     </div>
   </section>
+
+  <section class="portfolio">
+    <h2 class="portfolio-heading">Фотогалерея</h2>
+    <div class="portfolio-subline">Представляем вашему вниманию несколько последних реализованных крупных проектов</div>
+    <div class="gallery">
+      <div class="image-container">
+        <img class="preview" src="./../img/gallery/img1.jpg" alt="">
+        <div class="hover-buttons">
+          <a class="zoom" href="#img1">zoom image-1</a>
+          <!--<a class="link" href="#">link image-1</a>-->
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="preview" src="./../img/gallery/img2.jpg" alt="">
+        <div class="hover-buttons">
+          <a class="zoom" href="#img2">zoom image-2</a>
+          <!--<a class="link" href="#">link image-2</a>-->
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="preview" src="./../img/gallery/img3.jpg" alt="">
+        <div class="hover-buttons">
+          <a class="zoom" href="#img3">zoom image-3</a>
+          <!--<a class="link" href="#">link image-3</a>-->
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="preview" src="./../img/gallery/img4.jpg" alt="">
+        <div class="hover-buttons">
+          <a class="zoom" href="#img4">zoom image-4</a>
+          <!--<a class="link" href="#">link image-4</a>-->
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="preview" src="./../img/gallery/img5.jpg" alt="">
+        <div class="hover-buttons">
+          <a class="zoom" href="#img5">zoom image-5</a>
+          <!--<a class="link" href="#">link image-5</a>-->
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="preview" src="./../img/gallery/img6.jpg" alt="">
+        <div class="hover-buttons">
+          <a class="zoom" href="#img6">zoom image-6</a>
+          <!--<a class="link" href="#">link image-6</a>-->
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="preview" src="./../img/gallery/img7.jpg" alt="">
+        <div class="hover-buttons">
+          <a class="zoom" href="#img7">zoom image-4</a>
+          <!--<a class="link" href="#">link image-4</a>-->
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="preview" src="./../img/gallery/img8.jpg" alt="">
+        <div class="hover-buttons">
+          <a class="zoom" href="#img8">zoom image-5</a>
+          <!--<a class="link" href="#">link image-5</a>-->
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="preview" src="./../img/gallery/img9.jpg" alt="">
+        <div class="hover-buttons">
+          <a class="zoom" href="#img9">zoom image-6</a>
+          <!--<a class="link" href="#">link image-6</a>-->
+        </div>
+      </div>
+      <div class="overlay"></div>
+      <div class="popup">
+        <img id="img1" class="full-image" src="./../img/gallery/img1.jpg" alt="Объект-1">
+        <img id="img2" class="full-image" src="./../img/gallery/img2.jpg" alt="Объект-2">
+        <img id="img3" class="full-image" src="./../img/gallery/img3.jpg" alt="Объект-3">
+        <img id="img4" class="full-image" src="./../img/gallery/img4.jpg" alt="Объект-4">
+        <img id="img5" class="full-image" src="./../img/gallery/img5.jpg" alt="Объект-5">
+        <img id="img6" class="full-image" src="./../img/gallery/img6.jpg" alt="Объект-6">
+        <img id="img7" class="full-image" src="./../img/gallery/img7.jpg" alt="Объект-7">
+        <img id="img8" class="full-image" src="./../img/gallery/img8.jpg" alt="Объект-8">
+        <img id="img9" class="full-image" src="./../img/gallery/img9.jpg" alt="Объект-9">
+        <span class="close"></span>
+      </div>
+    </div>
+  </section>
+
   <section class="main-page-contacts">
     <div class="block-title">
       <div class="block-title-options">
@@ -190,12 +275,39 @@
     <span class="footer__copyright">2018-2019 ООО "ЛюксГорСтрой"</span>
   </footer>
 
-  <!--<script>jQuery(document).ready(function() {-->
-  <!--jQuery(".post").addClass("hidden").viewportChecker({-->
-  <!--classToAdd: 'visible animated fadeIn',-->
-  <!--offset: 100-->
-  <!--});-->
-  <!--});-->
-  <!--</script>-->
+  <script>
+      $(function () {
+          //zoom img onclick
+          $(".zoom").click(function () {
+              $(".hover-buttons").css("visibility", "hidden");
+              $(".overlay").addClass("active");
+              $(".popup").addClass("active");
+
+              var activeImg = $(this).attr("href");
+              $(activeImg).fadeIn();
+          });
+          //close img onclick
+          $(".close").click(function () {
+              $(".overlay").removeClass("active");
+              $(".popup").removeClass("active");
+              $(".full-image").hide();
+              $(".hover-buttons").css("visibility", "visible");
+          });
+
+          $(document).on("click", ".overlay", function () {
+              $(".overlay").removeClass("active");
+              $(".popup").removeClass("active");
+              $(".full-image").hide();
+              $(".hover-buttons").css("visibility", "visible");
+          });
+
+          $(".overlay").click(function () {
+              $(".overlay").removeClass("active");
+              $(".popup").removeClass("active");
+              $(".full-image").hide();
+              $(".hover-buttons").css("visibility", "visible");
+          });
+      });
+  </script>
 </body>
 </html>
