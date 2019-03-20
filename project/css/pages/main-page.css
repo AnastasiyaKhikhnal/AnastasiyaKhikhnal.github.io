@@ -186,35 +186,3 @@
 .main-page-contacts__contacts-form {
   padding: 5em 0 4.375em;
 }
-
-/*----------стили плавного появления блоков revealator----------*/
-
-/*.revealator-slideleft.revealator-within, .revealator-slideleft.revealator-partially-above, .revealator-slideleft.revealator-above {*/
-/*transform: translate(0, 0);*/
-/*opacity: 1;*/
-/*}*/
-
-/*.revealator-delay2 {*/
-/*transition-delay: 200ms !important;*/
-/*}*/
-
-/*.revealator-slideleft {*/
-/*transition: all 600ms;*/
-/*}*/
-
-/*.revealator-delay4 {*/
-/*transition-delay: 400ms !important;*/
-/*}*/
-
-/*.revealator-delay6 {*/
-/*transition-delay: 600ms !important;*/
-/*}*/
-
-/*-----------код к плавно появляющимся блокам (не сработал надо разбираться)---------------*/
-/*.hidden{*/
-/*opacity:0;*/
-/*}*/
-/*.visible{*/
-/*opacity:1;*/
-/*overflow: auto;*/
-/*}*/
