@@ -126,14 +126,33 @@ body {
 .main-page-advantages-wrap {
   display: flex;
   flex-direction: column;
-  padding: 12.5em 0;
-  width: 9.375em;
+  padding: 8em 0;
+  width: 16em;
   align-items: center;
   justify-content: center;
 }
 
+.main-page-advantages-headline {
+  padding-top: 1.5em;
+  margin: 0;
+  font-size: 2.45em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: Arsenal, sans-serif;
+}
+
+.main-page-advantages-subtitle {
+  display: flex;
+  align-items: baseline;
+  color: white;
+}
+
 .main-page-advantages-text {
-  color: black;
+  text-align: center;
+  font-size: 0.8em;
+  color: white;
+
 }
 
 /*------- class = "main-page-work-process"-----------*/
@@ -201,7 +220,7 @@ body {
 .main-page-partners {
   width: 100%;
   max-width: 100%;
-  height: 500px;
+  height: 30em;
   background: #717a7d;
 }
 
