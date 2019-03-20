@@ -112,6 +112,9 @@ body {
 }
 
 /*----------section class = "main-page-advantages"----------*/
+.main-page-advantages {
+  background: #2f455d;
+}
 
 .main-page-advantages-options {
   display: inline-flex;
