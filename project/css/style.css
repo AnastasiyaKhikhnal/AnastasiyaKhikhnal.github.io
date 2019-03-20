@@ -126,7 +126,7 @@ body {
 .main-page-advantages-wrap {
   display: flex;
   flex-direction: column;
-  padding: 8em 0;
+  padding: 4em 0 6em;
   width: 16em;
   align-items: center;
   justify-content: center;
