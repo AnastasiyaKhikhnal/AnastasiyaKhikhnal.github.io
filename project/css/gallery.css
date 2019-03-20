@@ -7,23 +7,27 @@ body {
 .portfolio {
   background:  #f2f1ec;
   text-align: center;
-  padding-bottom: 6.25em;
+  padding-bottom: 6.25rem;
 }
 
 .portfolio-heading {
   padding-top: 1.5em;
-  font-size: 2.45em;
   margin: 0;
+  font-size: 2.45em;
+  color:  #717a7d;
+  text-transform: uppercase;
 }
 
 .portfolio-subline {
   line-height: 1.2em;
   padding: 1.25em 0 4em;
+  color:   #0e1e31;
+  font-style: italic;
 }
 
 .gallery {
-  font-size: 0; /*delete spaces between child inline-blocks*/
-  max-width: 1170px; /*360 x 3 fixed-width + 3 x (15*2) paddings */
+  font-size: 0;
+  max-width: 1170px;
   margin: 0 auto;
   position: relative;
 }
