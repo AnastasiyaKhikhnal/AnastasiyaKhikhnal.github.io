@@ -8,8 +8,23 @@
 .about-company-bg-top {
   width: 100%;
   max-width: 100%;
-  height: 300px;
-  background: var(--about-company-bg-color);
+  height: 25em;
+  /*background: var(--about-company-bg-color);*/
+  background-image: url("./../../img/bg1.jpg");
+  background-size: cover;
+
+}
+
+.about-company-bg-top::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 25em;
+  background: #000000;
+  opacity: 0.5;
 
 }
 
@@ -28,7 +43,6 @@
 .box__title {
   padding-top: 6em;
   text-align: center;
-  /*font-family: "Prosto One", cursive ;*/
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
@@ -52,18 +66,20 @@
 
 @media (max-width: 812px) {
   .about-company-bg-top {
-    height: 180px;
+    height: 15em;
   }
-
   .box__title {
     padding-top: 7em;
     font-size: 1.5em;
+  }
+  .about-company-bg-top::after {
+    height: 15em;
   }
 }
 
 @media (max-width: 768px) {
   .about-company-bg {
-    height: 180px;
+    height: 11.25em;
   }
 
   .about-company__block-for-float {

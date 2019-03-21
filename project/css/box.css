@@ -1,7 +1,7 @@
 @import "style.css";
 
 :root {
-  --box-border-bg-color: var(--kidnapper);
+  --box-border-bg-color: var(--summer-sky);
 }
 
 .box {
