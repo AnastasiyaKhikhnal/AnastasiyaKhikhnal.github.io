@@ -9,10 +9,8 @@
   width: 100%;
   max-width: 100%;
   height: 25em;
-  /*background: var(--about-company-bg-color);*/
   background-image: url("./../../img/bg1.jpg");
   background-size: cover;
-
 }
 
 .about-company-bg-top::after {
@@ -25,7 +23,6 @@
   height: 25em;
   background: #000000;
   opacity: 0.5;
-
 }
 
 .about-company-options {
@@ -68,10 +65,12 @@
   .about-company-bg-top {
     height: 15em;
   }
+
   .box__title {
     padding-top: 7em;
     font-size: 1.5em;
   }
+
   .about-company-bg-top::after {
     height: 15em;
   }
