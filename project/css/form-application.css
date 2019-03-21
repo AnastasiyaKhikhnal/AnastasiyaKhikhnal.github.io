@@ -1,0 +1,16 @@
+@import "style.css";
+
+:root {
+
+}
+
+.form-application {
+  width: 100%;
+  max-width: 100%;
+}
+
+.form-application__fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}

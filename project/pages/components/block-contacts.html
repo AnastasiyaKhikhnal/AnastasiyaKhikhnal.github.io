@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>block-contacts</title>
+  <link rel="stylesheet" href="../../css/block-contacts.css">
+  <link rel="stylesheet" href="../../css/form-application.css">
+  <link rel="stylesheet" href="../../css/button.css">
+  <link rel="stylesheet" href="../../css/input.css">
+</head>
+<body>
+  <div class="contacts-options">
+    <div class="contacts-address-options">
+      <div class="contacts-address">
+        <h2 class="contacts-address__main-headline">Контакты</h2>
+        <h3 class="contacts-address__headline">Адрес:</h3>
+        <p class="contacts-address__info">Гродненская область, г.Гродно, улица 1 Мая, д.7</p>
+        <h3 class="contacts-address__headline">Телефоны:</h3>
+        <a class="contacts-address__tel-link" href="tel:+375152676226">+375 (152) 676226</a>
+        <a class="contacts-address__tel-link" href="tel:+375295839423">+375 (29) 5839423</a>
+        <a class="contacts-address__tel-link" href="tel:+375444752603">+375 (44) 4752603</a>
+        <h3 class="contacts-address__headline">Email-адрес:</h3>
+        <p class="contacts-address__info">luxgorstroy@gmail.com</p>
+        <h3 class="contacts-address__headline">Режим аботы:</h3>
+        <p class="contacts-address__info">Режим работы: пн-пт с 8.30-17.30; сб-вс: выходной</p>
+      </div>
+    </div>
+    <div class="contacts-form-options clearfix">
+      <div class="contacts-form">
+        <form class="form-application contacts__form-application" action="mailto:luxgorstroy@gmail.com"
+              enctype="text/plain">
+          <fieldset class="form-application__fieldset">
+            <p><input class="input__item" type="text" autocomplete="off" placeholder="Ваше имя *" required></p>
+            <p><input class="input__item" type="email" autocomplete="off" placeholder="Email *" required></p>
+            <p><input class="input__item" type="tel" autocomplete="off" placeholder="Ваш телефон"></p>
+            <textarea class="input__item input__item_textarea" cols="100" rows="10" placeholder="Ваше сообщение *"
+                      required></textarea>
+            <p>
+              <button class="button" type="submit">Отправить</button>
+            </p>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

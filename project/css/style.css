@@ -1,0 +1,342 @@
+@import "fonts.css";
+:root {
+  --black-pearl: #0e1e31;
+  --catalina-blue: #2f455d;
+  --blue-bayoux: #717a7d;
+  --kidnapper: #bbbbb3;
+  --alabaster: #f2f1ec;
+  --jungle-mist: #BBC6C7;
+  --summer-sky: #2BC2D4;
+}
+
+body {
+  margin: 0;padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+* {
+  /*box-sizing: border-box;*/
+}
+
+/*-------header class = "header"---------*/
+
+.header-content {
+  display: block;
+  position: fixed;
+  z-index: 2;
+}
+
+/*----------section class = main-page-slider----------*/
+.main-page-slider, .slider-main-bg {
+  height: 100vh;
+}
+
+.slider-main-bg {
+  width: 100%;
+}
+
+.main-page-slider__foto::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000000;
+  opacity: 0.5;
+}
+
+.main-page-title, .main-page-title__logo, .main-page-title__name-of-company, .main-page-title__slogan {
+  display: block;
+}
+
+.main-page-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-page-title__name-of-company, .main-page-title__slogan {
+  color: #ffffff;
+}
+
+.main-page-title__name-of-company {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2.4em;
+}
+
+.main-page-title__line {
+  width: 19em;
+}
+
+.main-page-title__slogan {
+  font-size: 1.2em;
+  letter-spacing: 4px;
+}
+
+/*----------section class = "about-company"----------*/
+
+.main-page-about-company {
+  background: #f2f1ec;
+}
+
+.about-company__name {
+  color: #717a7d;
+}
+
+.about-company-info {
+  margin: 0 auto;
+  width: 80%;
+  border-top: 1px solid #bbbbb3;
+}
+
+.about-company-info-text {
+  margin: 0;
+  padding: 0 3em;
+  color:  #2f455d;
+  text-align: justify;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  text-indent: 5%;
+}
+
+.about-company-info-text:first-child {
+  padding-top: 3em;
+}
+
+.about-company-info-text:last-child {
+  padding-bottom: 3em;
+}
+
+@media (max-width: 360px) {
+  .about-company-info-text {
+    padding: 0 0.5em;
+    text-align: center;
+    font-size: 1.1em;
+  }
+}
+
+/*----------section class = "main-page-advantages"----------*/
+.main-page-advantages {
+  background: #2f455d;
+}
+
+.main-page-advantages-options {
+  display: inline-flex;
+  width: 100%;
+  max-width: 100%;
+  height: 34.375em;
+  justify-content: space-around;
+}
+
+.main-page-advantages-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 4em 0 6em;
+  width: 16em;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page-advantages-headline {
+  padding-top: 1.5em;
+  margin: 0;
+  font-size: 2.45em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: Arsenal, sans-serif;
+}
+
+.main-page-advantages-subtitle {
+  display: flex;
+  align-items: baseline;
+  font-size:1em;
+  color: white;
+}
+
+.main-page-advantages-text {
+  text-align: center;
+  font-size: 0.8em;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .main-page-advantages-text {
+    padding: 0 5em;
+  }
+  .main-page-advantages-wrap {
+     width: 100%;
+  }
+  .main-page-advantages-options {
+    display: block;
+     height: auto;
+  }
+  .main-page-advantages-subtitle {
+    font-size:2.2em;
+  }
+  .main-page-advantages-text {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-page-advantages-subtitle {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 360px) {
+  .main-page-advantages-text {
+    padding: 1em 3em;
+  }
+  .main-page-advantages-wrap {
+    padding: 1em 0 2em;
+  }
+}
+
+  /*------- class = "main-page-work-process"-----------*/
+
+.stages-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.main-page-work-process {
+  background: #f2f1ec;
+}
+
+.main-page-work-process-options {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  height: 25em;
+}
+
+.main-page-work-process-stages {
+  display: flex;
+  flex-direction: column;
+  padding: 12.5em 0;
+  align-items: center;
+  justify-content: center;
+  width: 16em;
+  height: 25em;
+  border-right: 1px solid #bbbbb3;
+  border-top: 1px solid #bbbbb3;
+  border-bottom: 1px solid #bbbbb3;
+}
+
+.main-page-work-process-stages:last-child {
+  border-right: none;
+}
+
+.main-page-work-process-stages:hover {
+  background: white;
+  transition: all 0.3s linear;
+}
+
+.main-page-work-process-text {
+  display: flex;
+  align-items: baseline;
+  padding: 50px;
+  color: #2f455d;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .main-page-work-process-options {
+    display: block;
+    height: auto;
+  }
+
+  .main-page-work-process-stages {
+    padding: 8.25em 0;
+    width: 100%;
+    height: 20em;
+    border-right: none;
+    border-bottom: none;
+  }
+}
+
+/*---------section class = "main-page-contacts"--------------*/
+.main-page-contacts__block-title {
+  border-bottom: 1px solid #bbbbb3;
+}
+
+.main-page-contacts__contacts-address {
+  padding: 4.375em 0;
+}
+
+.main-page-contacts__contacts-form {
+  padding: 5em 0 4.375em;
+}
+
+/*----------section class = "main-page-partners"--------------*/
+
+.main-page-partners {
+  width: 100%;
+  max-width: 100%;
+  height: 30em;
+  background: #717a7d;
+}
+
+.main-page-partners-options {
+  display: inline-flex;
+  padding: 6em 0;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  justify-content: space-around;
+}
+
+.main-page-partners-container {
+  display: flex;
+  width: 10em;
+  height: 9em;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-partner {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-page-partners-headline {
+  padding-top: 1.5em;
+  margin: 0;
+  font-size: 2.45em;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: Arsenal, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .logo-partner {
+    width: 60%;
+    margin: 1em;
+  }
+  .main-page-partners-container {
+    width: auto;
+    height: auto;
+    display: block;
+  }
+  .main-page-partners-options {
+     display: block;
+    text-align: center;
+  }
+  .main-page-partners-headline {
+    padding-top: 2.5em;
+  }
+  .main-page-partners {
+    height: auto;
+  }
+}

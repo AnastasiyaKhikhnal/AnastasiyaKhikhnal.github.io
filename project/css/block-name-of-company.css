@@ -1,0 +1,53 @@
+@import "style.css";
+
+:root {
+  --block-name-of-company-bg-color: var(--kidnapper);
+}
+
+* {
+  /*box-sizing: unset;*/
+}
+
+.block-name-of-company {
+  display: block;
+  margin: 0;
+  width: 20em;
+  height: 20em;
+  border: 0.7rem solid var(--block-name-of-company-bg-color);
+  margin-left: 1.25em;
+  margin-top: 1.25em;
+  /*border-image: linear-gradient(to right, #08088b 0, #2575fc 100%) 1;*/
+}
+
+.block-name-of-company__title {
+  display: inline-block;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: 'Michroma', arial, sans-serif;
+  text-align: center;
+}
+
+.block-name-of-company__title:hover {
+  transition: .5s ease-in-out;
+  letter-spacing: 5px;
+}
+
+.block-name-of-company__card {
+  display: inline-block;
+  width: 30em;
+  background: white;
+  font-size: 1em;
+  position: relative;
+  top: 8.5em;
+  left: 2.45em;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.card-text {
+  margin-top: 0;
+}
