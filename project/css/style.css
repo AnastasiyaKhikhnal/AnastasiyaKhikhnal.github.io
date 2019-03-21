@@ -44,7 +44,6 @@ body {
   left: 0;
   background: #000000;
   opacity: 0.5;
-
 }
 
 .main-page-title, .main-page-title__logo, .main-page-title__name-of-company, .main-page-title__slogan {
@@ -75,6 +74,7 @@ body {
 
 .main-page-title__slogan {
   font-size: 1.2em;
+  letter-spacing: 4px;
 }
 
 /*----------section class = "about-company"----------*/

@@ -15,7 +15,10 @@
 
 @media (max-width: 812px) {
   .box {
-    width: 16em;
-    height: 16em;
+    width: 14em;
+    height: 14em;
+  }
+  .box__title {
+    padding-top: 5em;
   }
 }
