@@ -1,4 +1,4 @@
-@import "style.css";
+@import "../../style.css";
 
 :root {
   --input-bg-color: var(--kidnapper);

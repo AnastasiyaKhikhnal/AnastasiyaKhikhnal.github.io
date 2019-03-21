@@ -1,4 +1,4 @@
-@import "style.css";
+@import "../../style.css";
 
 :root {
   --box-border-bg-color: var(--summer-sky);
