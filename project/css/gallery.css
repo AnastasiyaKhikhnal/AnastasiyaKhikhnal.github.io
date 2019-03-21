@@ -14,7 +14,7 @@ body {
   padding-top: 1.5em;
   margin: 0;
   font-size: 2.8em;
-  color:  #717a7d;
+  color:  #0e1e31;
   text-transform: uppercase;
   font-family: Arsenal, sans-serif;
 }
@@ -24,6 +24,7 @@ body {
   padding: 1.25em 0 4em;
   color:   #0e1e31;
   font-style: italic;
+  font-weight: bold;
 }
 
 .gallery {
