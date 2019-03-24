@@ -3,7 +3,7 @@
 :root {
   --input-bg-color: var(--kidnapper);
   --input-text-color: var(--black-pearl);
-  --input-border-color: var(--kidnapper);
+  --input-border-color: var(--summer-sky);
   --input-border-outline-color: var(--summer-sky);
   --input-border-active-color: var(--summer-sky);
   --input-border-hover-color: var(--summer-sky);
@@ -16,9 +16,9 @@
   width: 100%;
   max-width: 100%;
   height: 2.75em;
-  border: none;
+  border: 1px solid var(--input-border-color);
 
-  background: var(--input-bg-color);
+  background: #ffffff;
   color: var(--input-text-color);
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
@@ -31,13 +31,13 @@
 }
 
 .input__item:hover {
-  border: 0.007em solid var(--input-border-hover-color);
+  border: 2px solid var(--input-border-hover-color);
 }
 
 .input__item:focus {
-  outline: 0.1em solid var(--input-border-outline-color);
+  outline: 2px solid var(--input-border-outline-color);
 }
 
 .input__item:active {
-  border: 0.007em solid var(--input-border-active-color);
+  border: 2px solid var(--input-border-active-color);
 }
