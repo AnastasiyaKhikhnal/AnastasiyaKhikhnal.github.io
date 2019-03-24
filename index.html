@@ -302,6 +302,16 @@
     <span class="footer__copyright">2018-2019 ООО "ЛюксГорСтрой"</span>
   </footer>
   <script>
+      $(window).scroll(function() {
+          if ($(this).scrollTop() > 100){
+              $('.header-content').addClass("nav-up");
+          }
+          else{
+              $('.header-content').removeClass("nav-up");
+          }
+      });
+  </script>
+  <script>
       $(function () {
           //zoom img onclick
           $(".zoom").click(function () {

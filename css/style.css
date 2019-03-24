@@ -26,6 +26,10 @@ body {
   z-index: 2;
 }
 
+.nav-up {
+  top: -100%;
+}
+
 /*----------section class = main-page-slider----------*/
 .main-page-slider, .slider-main-bg {
   height: 100vh;
