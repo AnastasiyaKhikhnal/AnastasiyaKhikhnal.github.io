@@ -73,11 +73,12 @@
   display: block;
   text-decoration: none;
   color: var(--contacts-address-tel-color);
-  font-size: 1.2em;
+  font-family: "Fugaz One", sans-serif;
+  font-size: 1em;
   font-weight: 600;
 }
 
-.contacts-address__tel-link:focus, :hover, :active {
+.contacts-address__tel-link:focus, .contacts-address__tel-link:hover, .contacts-address__tel-link:active {
   color: var(--contacts-address-tel-hover-active-color);
 }
 
@@ -92,7 +93,7 @@
 .box__title {
   padding-top: 6em;
   text-align: center;
-  /*font-family: "Prosto One", Arial, cursive, sans-serif;*/
+  font-family: "Open Sans", Arial, sans-serif;
   font-size: 2em;
   font-weight: bold;
   text-transform: uppercase;
@@ -102,9 +103,7 @@
 @media (max-width: 992px) {
   .contacts-options {
     display: block;
-
   }
-
   .contacts-form-options {
     display: block;
     padding-bottom: 9.25em;
@@ -112,13 +111,11 @@
     width: 100%;
     background: var(--contacts-form-options-bg-color);
   }
-
   .contacts-address-options {
     display: block;
     padding-bottom: 9.25em;
     padding-top: 9.25em;
     width: 100%;
-
   }
 }
 
@@ -131,19 +128,16 @@
   .contacts-form-options, .contacts-address-options {
     padding-bottom: 2.25em;
   }
-
   .contacts-form-options {
     display: block;
     padding-top: 9.25em;
     width: 100%;
     background: var(--contacts-form-options-bg-color);
   }
-
   .contacts-address-options {
     display: block;
     padding-top: 9.25em;
     width: 100%;
-
   }
 }
 
