@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  /*color: #ffffff;*/
 }
 
 .header-content {
@@ -86,20 +85,10 @@
   top: 0.375em;
   width: 2em;
   height: 2em;
-
-  /*background: white;*/
 }
 
-/*.icon {*/
-/*position: absolute;*/
-/*top: 50px;*/
-/*left: 50px;*/
-/*z-index: 20;*/
-/*color: #ffffff;*/
-/*}*/
-
 .clearfix:after {
-  content:".";
+  content:" ";
   clear:both;
   display:block;
   height:0;
