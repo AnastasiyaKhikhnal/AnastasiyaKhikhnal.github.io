@@ -1,13 +1,14 @@
 @import "../../style.css";
 
 :root {
-  --button-bg-color: var(--kidnapper);
-  --button-text-color: var(--blue-bayoux);
-  --button-border-color: var(--kidnapper);
+  --button-bg-color: var(--summer-sky);
+  --button-text-color: var(--summer-sky);
+  --button-border-color: var(--summer-sky);
   --button-bg-hover-focus-color: var(--summer-sky);
   --button-border-hover-focus-color: var(--summer-sky);
   --button-focus-color: var(--kidnapper);
   --button-bg-active-color: var(--alabaster);
+  --button-hover-focus-text-color: var(--summer-sky);
 }
 
 * {
@@ -21,11 +22,11 @@
   max-width: 100%;
   width: 12em;
   height: 3.5em;
-  border: 0.007em solid var(--button-border-color);
+  border: 2px solid var(--button-border-color);
   border-radius: 0.5em;
 
   background: var(--button-bg-color);
-  color: var(--button-text-color);
+  color: #ffffff;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
@@ -38,8 +39,9 @@
 }
 
 .button:hover, .button:focus {
-  background: var(--button-bg-hover-focus-color);
-  border: var(--button-border-hover-focus-color);
+  background: #ffffff;
+  border: 2px solid var(--button-border-hover-focus-color);
+  color:  var(--button-hover-focus-text-color);
   transition: All 0.5s ease;
 }
 

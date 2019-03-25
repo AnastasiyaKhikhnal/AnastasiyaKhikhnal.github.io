@@ -10,12 +10,10 @@
 }
 
 body {
-  margin: 0;padding: 0;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1600px;
   font-family: "Open Sans", Arial, sans-serif;
-}
-
-* {
-  /*box-sizing: border-box;*/
 }
 
 /*-------header class = "header"---------*/
@@ -24,6 +22,10 @@ body {
   display: block;
   position: fixed;
   z-index: 2;
+}
+
+.nav-up {
+  top: -100%;
 }
 
 /*----------section class = main-page-slider----------*/
@@ -75,6 +77,15 @@ body {
 .main-page-title__slogan {
   font-size: 1.2em;
   letter-spacing: 4px;
+}
+
+@media (max-width: 640px) {
+  .main-page-title__slogan {
+    font-size: 0.7em;
+  }
+  .main-page-title__name-of-company {
+    font-size: 2em;
+  }
 }
 
 /*----------section class = "about-company"----------*/
@@ -338,5 +349,9 @@ body {
   }
   .main-page-partners {
     height: auto;
+  }
+  .contacts__form-application {
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
