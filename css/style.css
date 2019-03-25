@@ -83,6 +83,15 @@ body {
   letter-spacing: 4px;
 }
 
+@media (max-width: 640px) {
+  .main-page-title__slogan {
+    font-size: 0.7em;
+  }
+  .main-page-title__name-of-company {
+    font-size: 2em;
+  }
+}
+
 /*----------section class = "about-company"----------*/
 
 .main-page-about-company {
@@ -344,5 +353,9 @@ body {
   }
   .main-page-partners {
     height: auto;
+  }
+  .contacts__form-application {
+    padding-left: 2em;
+    padding-right: 2em;
   }
 }
