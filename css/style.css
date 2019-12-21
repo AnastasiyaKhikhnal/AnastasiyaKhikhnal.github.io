@@ -286,7 +286,7 @@ body {
 }
 
 .main-page-contacts__contacts-form {
-  padding: 5em 0 4.375em;
+  padding: 5em -2em 4.375em;
 }
 
 /*----------section class = "main-page-partners"--------------*/
