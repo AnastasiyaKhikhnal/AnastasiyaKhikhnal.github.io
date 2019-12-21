@@ -61,6 +61,7 @@ body {
 
 .main-page-title__name-of-company, .main-page-title__slogan {
   color: #ffffff;
+  letter-spacing: 0.2em;
 }
 
 .main-page-title__name-of-company {
@@ -70,7 +71,7 @@ body {
 }
 
 .main-page-title__line {
-  width: 19em;
+  width: 30em;
 }
 
 .main-page-title__slogan {
