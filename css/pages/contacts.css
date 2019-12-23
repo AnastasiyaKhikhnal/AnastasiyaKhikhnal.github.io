@@ -40,8 +40,8 @@
 
 .contacts-form-options {
   display: inline-block;
-  padding-bottom: 8.25em;
-  padding-top: 11.25em;
+  padding-bottom: 5.25em;
+  padding-top: 3.25em;
   width: 50%;
   float: right;
   background: var(--contacts-form-options-bg-color);
